@@ -150,6 +150,16 @@ export const CicsCmciConstants = {
   CICS_CMCI_LOCAL_TRANSACTION: "CICSLocalTransaction",
 
   /**
+   * The CICS CMCI Bundle
+   */
+  CICS_CMCI_BUNDLE: "CICSBundle",
+
+  /**
+   * The CICS CMCI Bundle Part
+   */
+  CICS_CMCI_BUNDLE_PART: "CICSBundlePart",
+
+  /**
    * The CICS CMCI remote transaction
    */
   CICS_CMCI_REMOTE_TRANSACTION: "CICSRemoteTransaction",

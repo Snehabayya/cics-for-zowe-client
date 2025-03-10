@@ -429,22 +429,22 @@
       ],
       "view/item/context": [
         {
-          "when": "view == cics-view && viewItem =~ /^cicsprogram.*/",
+          "when": "view == cics-view && viewItem =~ /^CICSProgram.*/",
           "command": "cics-extension-for-zowe.newCopyProgram",
           "group": "inline"
         },
         {
-          "when": "view == cics-view && viewItem =~ /^cicsprogram.*/",
+          "when": "view == cics-view && viewItem =~ /^CICSProgram.*/",
           "command": "cics-extension-for-zowe.newCopyProgram",
           "group": ""
         },
         {
-          "when": "view == cics-view && viewItem =~ /^cicsprogram.*/",
+          "when": "view == cics-view && viewItem =~ /^CICSProgram.*/",
           "command": "cics-extension-for-zowe.phaseInCommand",
           "group": "inline"
         },
         {
-          "when": "view == cics-view && viewItem =~ /^cicsprogram.*/",
+          "when": "view == cics-view && viewItem =~ /^CICSProgram.*/",
           "command": "cics-extension-for-zowe.phaseInCommand",
           "group": ""
         },
@@ -624,7 +624,7 @@
           "group": "inline"
         },
         {
-          "when": "view == cics-view && viewItem =~ /^cicsprogram.*/",
+          "when": "view == cics-view && viewItem =~ /^CICSProgram.*/",
           "command": "cics-extension-for-zowe.showProgramAttributes",
           "group": ""
         },
@@ -674,12 +674,12 @@
           "group": "000_zowecics_main@0"
         },
         {
-          "when": "view == cics-view && viewItem =~ /^cicsprogram.disabled.*/",
+          "when": "view == cics-view && viewItem =~ /^CICSProgram.disabled.*/",
           "command": "cics-extension-for-zowe.enableProgram",
           "group": ""
         },
         {
-          "when": "view == cics-view && viewItem =~ /^cicsprogram.enabled.*/",
+          "when": "view == cics-view && viewItem =~ /^CICSProgram.enabled.*/",
           "command": "cics-extension-for-zowe.disableProgram",
           "group": ""
         },

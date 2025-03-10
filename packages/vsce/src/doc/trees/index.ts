@@ -9,6 +9,8 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+export * from "./IChildResource";
+export * from "./ICICSTree";
+export * from "./ICICSTreeNode";
+export * from "./ICICSTreeOpts";
+export * from "./IContainedResource";

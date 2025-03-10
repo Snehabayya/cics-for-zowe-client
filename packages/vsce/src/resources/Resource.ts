@@ -9,6 +9,12 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+import { IResource } from "../doc";
+
+export class Resource<T extends IResource> {
+  attributes: T;
+
+  constructor(resource: T) {
+    this.attributes = resource;
+  }
+}

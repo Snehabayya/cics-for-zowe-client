@@ -9,6 +9,8 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+export * from "./CICSSession";
+export * from "./CICSplex";
+export * from "./Region";
+export * from "./Resource";
+export * from "./ResourceContainer";

@@ -9,6 +9,11 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+import { IResource } from "./IResource";
+
+export interface IProgram extends IResource {
+  program: string;
+  status: string;
+  newcopycnt: string;
+  eyu_cicsname: string;
+}

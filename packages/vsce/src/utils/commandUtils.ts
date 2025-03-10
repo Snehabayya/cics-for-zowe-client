@@ -10,6 +10,7 @@
  */
 
 import { TreeView } from "vscode";
+import { ICICSTreeNode } from "../doc";
 
 /**
  * Returns an array of selected nodes in the current treeview.
@@ -18,7 +19,7 @@ import { TreeView } from "vscode";
  * @param clickedNode - Node that was clicked right before the command was executed
  * @return Array of selected nodes in the treeview.
  */
-export function findSelectedNodes(treeview: TreeView<any>, instanceOf: any, clickedNode?: any) {
+export function findSelectedNodes(treeview: TreeView<ICICSTreeNode>) {
   const selection = treeview.selection;
   let allSelectedNodes = [];
   if (clickedNode) {

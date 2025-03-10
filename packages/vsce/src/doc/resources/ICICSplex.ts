@@ -9,6 +9,13 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+import { IResource } from "./IResource";
+
+export interface ICICSplex extends IResource {
+  accesstype: string;
+  cmasname: string;
+  mpstatus: string;
+  plexname: string;
+  status: string;
+  sysid: string;
+}

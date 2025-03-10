@@ -9,6 +9,10 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+export * from "./CICSRegionNode";
+export * from "./CICSResourceContainerNode";
+export * from "./CICSSessionNode";
+export * from "./CICSTree";
+export * from "./CICSTreeNode";
+export * from "./CICSTreeProvider";
+export * from "./CICSplexNode";

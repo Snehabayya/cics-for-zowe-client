@@ -9,6 +9,13 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+import { IResource } from "./IResource";
+
+// /CICSSystemManagement/CICSBundlePart/VSCDSMSJ?CRITERIA=BUNDLE='WRITE2Q'
+export interface IBundlePart extends IResource {
+  bundle: string;
+  bundlepart: string;
+  enablestatus: string;
+  eyu_cicsname: string;
+  partclass: string;
+}

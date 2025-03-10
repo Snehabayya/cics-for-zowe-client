@@ -9,6 +9,10 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+export * from "./IBundle";
+export * from "./IBundlePart";
+export * from "./ICICSplex";
+export * from "./IProgram";
+export * from "./IRegion";
+export * from "./IResource";
+export * from "./ITransaction";

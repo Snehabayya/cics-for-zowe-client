@@ -9,6 +9,8 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+export * from "./bundle.meta";
+export * from "./bundlePart.meta";
+export * from "./IResourceMeta";
+export * from "./program.meta";
+export * from "./transaction.meta";

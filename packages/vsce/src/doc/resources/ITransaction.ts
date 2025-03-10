@@ -9,6 +9,11 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+import { IResource } from "./IResource";
+
+export interface ITransaction extends IResource {
+  tranid: string;
+  program: string;
+  status: string;
+  eyu_cicsname: string;
+}

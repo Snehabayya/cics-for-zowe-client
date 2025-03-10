@@ -9,6 +9,13 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+import { IResource } from "./IResource";
+
+export interface IBundle extends IResource {
+  bundledir: string;
+  bundleid: string;
+  enablestatus: string;
+  eyu_cicsname: string;
+  name: string;
+  partcount: string;
+}

@@ -9,6 +9,9 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+import { TreeDataProvider } from "vscode";
+import { ICICSTreeNode } from "./ICICSTreeNode";
+
+export interface ICICSTree<T> extends TreeDataProvider<T> {
+  sessionNodes: ICICSTreeNode[];
+}

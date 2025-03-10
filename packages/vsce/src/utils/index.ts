@@ -9,6 +9,7 @@
  *
  */
 
-export * from "./CicsCmci.constants";
-export * from "./CicsCmci.messages";
-export * from "./CICSProfileDefinition";
+export * from "./CICSRequester";
+export * from "./IconBuilder";
+export * from "./ProfileManagement";
+export * from "./TopologyBuilder";
